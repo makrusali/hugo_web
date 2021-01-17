@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Makrus Ali</title>
+    <link>https://makrusali.github.io/</link>
+    <description>Recent content on Makrus Ali</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2021 15:47:56 +0700</lastBuildDate><atom:link href="https://makrusali.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pembukaan</title>
+      <link>https://makrusali.github.io/post/pembukaan/</link>
+      <pubDate>Sun, 17 Jan 2021 15:47:56 +0700</pubDate>
+      
+      <guid>https://makrusali.github.io/post/pembukaan/</guid>
+      <description>Halo, saya Makrus Ali
+Pengen sharing akhirnya buat web ini, web ini saya buat dengan bantuan Hugo. , Bootstrap. dan untuk sistem komentarnya saya pake Disqus
+buat temen - temen yang mengunjungi / baca Terima Kasih
+Semoga Bermanfaat
+Kalo ada saran tanggapan boleh di makrus361@gmail.com</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+{{define "main"}}
+
+<div class="container column" style="margin-top: 90px;">
+    {{ range .Site.RegularPages}}
+    <div class="card mt-4" style="width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title">{{.Title}}</h5>
+            <p class="card-subtitle mb-2 text-muted">{{.Date.Format "01-02-2006"}} </p>
+            <p class="card-text">{{.Description}}</p>
+            <a class="btn btn-outline-secondary" href="{{.Permalink}}">Baca lebih lanjut</a>
+        </div>
+    </div>
+    {{end}}
+</div>
+{{end }}
