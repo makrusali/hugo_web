@@ -8,3 +8,4 @@ relativeURLs = true
     github = "https://makrusali.github.com"
     custom_css = ["css/main.css"]
     custom_js = ["js/main.js"]
+    image404 = ["images/404.jpg"]

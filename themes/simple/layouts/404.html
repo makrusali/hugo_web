@@ -1,1 +1,15 @@
-<h1>Maaf File yang kamu cari belom tersedia</h1>
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body>
+    {{ range .Site.Params.image404 -}}
+    <div class="text-center">
+        <img src="{{ . | absURL }}" class="rounded mt-4" alt="404 Image" width="300">
+        <h2 class="mt-1">Maaf 404 Halaman belom/tidak tersedia</h2>
+        <a href="https://makrusali.github.io" type="button" class="btn btn-outline-secondary mt-4">Kembali ke Home</a>
+    </div>
+    {{- end }}
+</body>
+
+</html>
